@@ -25,7 +25,7 @@ class Locationer {
 	
 	public static String whereYouAre(double x, double y){
 		
-		//for boundaries
+		//for boundaries, logic error here intentionally, && should be ||
 		if( (x == 0) && (x == 4) || (y == 0) || (y == 4)){
 			return "You're on a border!";
 		}
