@@ -23,7 +23,7 @@ class LocationerTests{
 
 	@Test 
 	public void onABorder(){
-		String res - Locationer.whereYouAre(0, 2);
+		String res = Locationer.whereYouAre(0, 2);
 		assertEquals("You're on a border!", res);
 	}
 
