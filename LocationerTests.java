@@ -1,7 +1,8 @@
 import static org.junit.Assert.*;
 import org.junit.*;
+import org.junit.Test;
 
-class LocationerTests{
+public class LocationerTests{
 
 	@Test
 	public void outOFBounds(){
