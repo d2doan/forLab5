@@ -20,4 +20,11 @@ class LocationerTests{
 		String res = Locationer.whereYouAre(0, 0);
 		assertEquals("You're on a border!", res);
 	}
+
+	@Test 
+	public void onABorder(){
+		String res - Locationer.whereYouAre(0, 2);
+		assertEquals("You're on a border!", res);
+	}
+
 }
