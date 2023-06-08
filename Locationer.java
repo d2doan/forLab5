@@ -23,7 +23,7 @@
 
 class Locationer {
 	
-	public static String whereYouAre(int x, int y){
+	public static String whereYouAre(double x, double y){
 		
 		//for boundaries
 		if( (x == 0) && (x == 4) || (y == 0) || (y == 4)){

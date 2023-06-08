@@ -5,7 +5,7 @@ class LocationerTests{
 
 	@Test
 	public void outOFBounds(){
-		String res = Locationer.whereYouAre(5, 5);
+		String res = Locationer.whereYouAre(5.0, 5.0);
 		assertEquals("You seem to be lost, out of bounds...", res);
 	}
 
@@ -17,13 +17,13 @@ class LocationerTests{
 
 	@Test
 	public void atOrigin(){
-		String res = Locationer.whereYouAre(0, 0);
+		String res = Locationer.whereYouAre(0.0, 0.0);
 		assertEquals("You're on a border!", res);
 	}
 
 	@Test 
 	public void onABorder(){
-		String res = Locationer.whereYouAre(0, 2);
+		String res = Locationer.whereYouAre(0.0, 2.0);
 		assertEquals("You're on a border!", res);
 	}
 
